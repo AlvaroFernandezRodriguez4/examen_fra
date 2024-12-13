@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
 import 'package:examen_fra/screens/home_screen_fra.dart';
+import 'package:examen_fra/screens/signin_screen_fra.dart';
+import 'package:flutter/material.dart';
 
 class MenuOption {
   final String route;
@@ -25,6 +26,12 @@ class AppRoutes {
       name: 'Home Screen',
       screen: HomeScreenFra(),
     ),
+    MenuOption(
+      route: 'signin_screen',
+      icon: Icons.login,
+      name: 'Sign In Screen',
+      screen: SigninScreenFra(),
+    ),
 
   ];
 
@@ -39,7 +46,8 @@ class AppRoutes {
 
   static Route<dynamic> onGenerateRoute(RouteSettings settings) {
     return MaterialPageRoute(
-      builder: (context) => const HomeScreenFra(),
+      builder: (context) => const HomeScreenFra(), 
     );
   }
 }
+

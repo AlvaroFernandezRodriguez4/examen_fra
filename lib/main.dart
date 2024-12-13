@@ -1,6 +1,6 @@
 import 'package:examen_fra/screens/home_screen_fra.dart';
-import 'package:flutter/material.dart';
 import 'package:examen_fra/routes/app_routes_fra.dart';
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Examen Flutter',
       initialRoute: AppRoutes.initialRoute, 
       routes: AppRoutes.getAppRoutes(), 
-      onGenerateRoute: AppRoutes.onGenerateRoute,
+      onGenerateRoute: AppRoutes.onGenerateRoute, 
     );
   }
 }
