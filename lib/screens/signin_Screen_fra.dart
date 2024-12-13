@@ -94,7 +94,7 @@ class SigninScreenFra extends StatelessWidget {
         },
         backgroundColor: Colors.green,
         foregroundColor: Colors.white,
-        child: const Icon(Icons.close),
+        child: const Icon(Icons.close_rounded),
       ),
     );
   }

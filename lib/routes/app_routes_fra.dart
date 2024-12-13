@@ -1,4 +1,5 @@
 import 'package:examen_fra/screens/home_screen_fra.dart';
+import 'package:examen_fra/screens/listview_screen_fra.dart';
 import 'package:examen_fra/screens/signin_screen_fra.dart';
 import 'package:flutter/material.dart';
 
@@ -32,7 +33,12 @@ class AppRoutes {
       name: 'Sign In Screen',
       screen: SigninScreenFra(),
     ),
-
+    const MenuOption(
+      route: 'listview_screen',
+      icon: Icons.list,
+      name: 'Listview Screen',
+      screen: ListviewScreenFra(),
+    ),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {

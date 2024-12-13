@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Examen Flutter',
+      title: 'Examen Flutter AFR',
       initialRoute: AppRoutes.initialRoute, 
       routes: AppRoutes.getAppRoutes(), 
       onGenerateRoute: AppRoutes.onGenerateRoute, 
